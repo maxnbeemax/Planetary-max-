@@ -41,3 +41,6 @@ new_sqlite_classes = ["NodeRegistryDO"]
 [[migrations]]
 tag = "v2-secure-registry"
 new_sqlite_classes = ["BEEMAXSecureNodeRegistryDO"]
+
+[ai]
+binding = "AI"
