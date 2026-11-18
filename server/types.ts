@@ -1,5 +1,6 @@
 export interface Bindings {
   DB: D1Database;
+  AI: Ai;
   ASSETS: Fetcher;
   SESSION_KV: KVNamespace;
   NODE_REGISTRY: DurableObjectNamespace;

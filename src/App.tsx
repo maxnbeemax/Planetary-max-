@@ -44,8 +44,8 @@ function UmbrellaSpace() {
 
 function BeemaxSpace() {
   return <section className="beemax-space"><div className="space-heading"><div><span className="space-kicker">05 / BEEMAX HUD</span><h1>A command center <em>for your universe.</em></h1><p>Ask about the catalog, node status or escrow, and explore the systems behind your spaces.</p></div><div className="beemax-orbit" aria-hidden="true"><span>✳</span></div></div>
-    <div className="beemax-cards"><article><span>01 / COMMAND STREAM</span><h2>Ask BEEMAX</h2><p>Use the command stream below to query the catalog and system status.</p><a href="#command-stream">Open command stream ↓</a></article><article><span>02 / CONTROL SURFACE</span><h2>Explore the console</h2><p>View the registry, sample network topology and command terminal.</p><a href="/admin">Open command center ↗</a></article></div>
-    <p className="space-caption">Commands query available endpoints. The intent router does not authorize transactions.</p>
+    <div className="beemax-cards"><article><span>01 / COMMAND STREAM</span><h2>Ask BEEMAX</h2><p>Use the command stream below to ask questions or query the catalog and system status.</p><a href="#command-stream">Open command stream ↓</a></article><article><span>02 / CONTROL SURFACE</span><h2>Explore the console</h2><p>View the registry, sample network topology and command terminal.</p><a href="/admin">Open command center ↗</a></article></div>
+    <p className="space-caption">Commands query available endpoints; AI responses do not authorize transactions.</p>
   </section>;
 }
 
